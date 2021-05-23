@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+    <title>JST Band - Components</title>
+  </head>
+  <body>
+    <body class="max-w-screen-lg m-auto p-0 bg-black-500">
+      <nav class="bg-light-500">
+        <div class="container mx-auto">
+          <div class="sm:flex justify-around">
+            <div class="flex">
+              <a class="m-3" href="./index.html"> <img src="./assets/images/icono.jpg" alt="Universitat Oberta de Catalunya" class="w-3/12"></a>
+              <a class="sm:hidden text-4xl text-gray-500 m-4 rounded-3xl border-4 p-3" id="toggle"> <i class="fas fa-bars"></i></a>  
+            </div>
+            <ul class=" text-gray-500 sm:self-center text-xl sm:w-8/12" id="menu">
+              <li class="sm:inline-block">
+                <a class="p-3 hover:text-green-500"  href="./index.html">Inicio</a>
+              </li>
+              <li class="sm:inline-block">
+                <a class="p-3 text-green-500" href="./components.html"><i class="fas fa-guitar"></i> Componentes</a>
+              </li>
+              <li class="sm:inline-block">
+                <a class="p-3 hover:text-green-500" href="./news.html"> <i class="fas fa-newspaper"></i> Noticias</a>
+              </li>
+              <li class="sm:inline-block">
+                <a class="p-3 hover:text-green-500" href="./index.html" tabindex="-1" > <i class="far fa-address-book"></i> Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main class="bg-light-500">
+        <div class="bg-black-500 m-auto border-4 border-light-500 p-2">
+          <h1 class="text-4xl text-white-500">Componentes</h1>
+
+          <div class="flex flex-wrap justify-around mt-8">
+
+            <div class="w-72 bg-white-500 border-4 border-green-500 rounded-sm mb-8">
+              <img class="w-11/12 m-auto mt-6" src="./assets/images/vocalista.jpg" alt="Card image cap">
+              <div class="m-auto w-11/12 p-6">
+                <h5 class="text-xl text-light-500">Vocalista</h5>
+                <p class="text-light-500">Alarico</p>
+              </div>
+            </div>
+
+            <div class="w-72 bg-white-500 border-4 border-green-500 rounded-sm mb-8">
+              <img class="w-11/12 m-auto mt-6" src="./assets/images/guitar.jpg" alt="Card image cap">
+              <div class="m-auto w-11/12 p-6">
+                <h5 class="text-xl text-light-500">Guitarra</h5>
+                <p class="text-light-500">Ataúlfo</p>
+              </div>
+            </div>
+
+            <div class="w-72 bg-white-500 border-4 border-green-500 rounded-sm mb-8">
+              <img class="w-11/12 m-auto mt-6" src="./assets/images/bass.jpg" alt="Card image cap">
+              <div class="m-auto w-11/12 p-6">
+                <h5 class="text-xl text-light-500">Bajo</h5>
+                <p class="text-light-500">Sigérico</p>
+              </div>
+            </div>
+
+            <div class="w-72 bg-white-500 border-4 border-green-500 rounded-sm mb-8">
+              <img class="w-11/12 m-auto mt-6" src="./assets/images/drum.jpg" alt="Card image cap">
+              <div class="m-auto w-11/12 p-6">
+                <h5 class="text-xl text-light-500">Bateria</h5>
+                <p class="text-light-500">Walia</p>
+              </div>
+            </div>
+
+            <div class="w-72 bg-white-500 border-4 border-green-500 rounded-sm mb-8">
+              <img class="w-11/12 m-auto mt-6" src="./assets/images/productor.jpg" alt="Card image cap">
+              <div class="m-auto w-11/12 p-6">
+                <h5 class="text-xl text-light-500">Producción</h5>
+                <p class="text-light-500">Teodorico</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+          <div class="grid sm:grid-cols-2 grid-cols-1 text-center pt-10 pb-9">
+            <div class=" bg-black-500 w-72 text-light-500 mx-auto p-6 sm:mt-0 mt-8">
+              <div>
+                <h5 class="text-xl">Contacto</h5>
+                <p >No dudes en ponerte en contacto con nosotros</p>
+                <div class="mt-5">
+                  <a href="mailto:jst7@uoc.edu" class="bg-light-500 font-bold py-2 px-4 rounded-full text-black-500 text-2xl"><i class="fas fa-at"></i></a>
+                  <a  href="tel:+example" class="bg-light-500 font-bold py-2 px-4 rounded-full text-black-500 text-2xl"><i class="fas fa-phone"></i></a>
+                </div>
+              </div>
+            </div>
+      
+            <div class=" bg-black-500  w-72 text-light-500 mx-auto p-6 sm:mt-0 mt-8">
+              <div>
+                <h5 class="text-xl">Redes Sociales</h5>
+                <p> No dudes en visitarnos en nuestras redes sociales</p>
+                <div class="mt-5">
+                  <a href="#" class="bg-light-500 font-bold py-2 px-4 rounded-full text-2xl text-blue-200"><i class="fab fa-facebook contact__info--facebook"></i></a>
+                  <a href="#" class="bg-light-500 font-bold py-2 px-4 rounded-full text-2xl text-blue-300"><i class="fab fa-twitter contact__info--twitter"></i></a>
+                  <a href="#" class="bg-light-500 font-bold py-2 px-4 rounded-full text-2xl text-light-400"><i class="fab fa-instagram contact__info--instagram"></i></a>
+                  <a href="#" class="bg-light-500 font-bold py-2 px-4 rounded-full text-2xl text-red-200"><i class="fab fa-youtube contact__info--youtube"></i></a>
+                </div>
+              </div>
+            </div>
+
+        </div>
+  </main>
+    <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+  </body>
+</html>

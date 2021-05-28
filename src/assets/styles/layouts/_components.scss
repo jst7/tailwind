@@ -1,0 +1,7 @@
+
+@layer components {
+  
+  .card-border {
+    @apply w-72 bg-white-500 border-4 border-green-500 rounded-sm mb-8;
+  }
+}

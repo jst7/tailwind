@@ -1,5 +1,3 @@
-const { red } = require('tailwindcss/colors')
-const colors = require('tailwindcss/colors')
 
 module.exports = {
   purge: ["./src/**/*.html"],
